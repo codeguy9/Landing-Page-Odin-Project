@@ -246,21 +246,21 @@ span#logo-footer {
 	font-weight: 700;
 }
 
-ul.links-one li:first-of-type {
+ul.links-one li a:first-of-type {
 	font-size: 14px;
 	color: #1F2937;
 }
 
-ul.links-one li:nth-of-type(2), ul.links-one li:nth-of-type(3), ul.links-one li:nth-of-type(4) {
+ul.links-one li a:nth-of-type(2), ul.links-one li a:nth-of-type(3), ul.links-one li a:nth-of-type(4) {
 	padding-top: 10px;
 }
 
-ul.links-two li:first-of-type {
+ul.links-two li a:first-of-type {
 	font-size: 14px;
 	color: #1F2937;
 }
 
-ul.links-two li:nth-of-type(2), ul.links-two li:nth-of-type(3), ul.links-two li:nth-of-type(4) {
+ul.links-two li a:nth-of-type(2), ul.links-two li a:nth-of-type(3), ul.links-two li a:nth-of-type(4) {
 	padding-top: 10px;
 }
 
@@ -270,8 +270,9 @@ ul.links-two li:nth-of-type(2), ul.links-two li:nth-of-type(3), ul.links-two li:
 	justify-content: flex-end;
 	
 }
-
-
+.social-icons li a {
+	color: white;	
+}
 
 .last-footer-content {
 	display: flex;
