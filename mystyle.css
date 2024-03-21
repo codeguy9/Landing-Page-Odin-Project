@@ -260,7 +260,7 @@ ul.links-two li a:first-of-type {
 	color: #1F2937;
 }
 
-ul.links-two li a:nth-of-type(2), ul.links-two li a:nth-of-type(3), ul.links-two li a:nth-of-type(4) {
+ul.links-two li:nth-of-type(2), ul.links-two li:nth-of-type(3), ul.links-two li:nth-of-type(4) {
 	padding-top: 10px;
 }
 
@@ -271,7 +271,8 @@ ul.links-two li a:nth-of-type(2), ul.links-two li a:nth-of-type(3), ul.links-two
 	
 }
 .social-icons li a {
-	color: white;	
+	color: black;
+	padding: 5px;
 }
 
 .last-footer-content {
